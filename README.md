@@ -29,18 +29,25 @@ pall
 pall
 
 ```
+## Opcodes list
 
-
-
-
-
-
-
-
-
-
-
-
+* push
+* pall
+* pint
+* pop
+* swap
+* add
+* nop
+* sub
+* div
+* mul
+* mod
+* pchar
+* pstr
+* rotl
+* rotr
+* queue
+* stack
 
 
 
