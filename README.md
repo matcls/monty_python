@@ -7,7 +7,31 @@ Monty 0.98 is a scripting language that is first compiled into Monty byte codes 
 ---
 
 ## Description
-A monty opcode interpreter in python
+A monty opcode interpreter in python.
+
+## Opcodes list
+
+* push  - Add an element to the stack/queue.
+* pall  - Prints all the values int the the stack/queue.
+* pint  - Prints the value at the top of the stack/queue.
+* pop   - Removes the top element of the stack/queue.
+* swap  - Swaps the top two elements of the
+* add   - Adds the top two elements of the
+* nop   - Desn’t do anything.
+* sub   - Subtracts the top element of the
+* div   - Divides the second top element of the stack/queue
+          by the top element of the stack/queue.
+* mul   - Multiply the second top element of the stack/queue
+          by the top element of the stack/queue.
+* mod   - Computes the rest of the division of the second top element
+       of the deque by the top element of the stack/queue.
+* pchar - Prints the top element of the stack/queue as a char.
+* pstr - Prints the stack/queue as a string starting at the top of the stack/queue
+* rotl - Rotates the stack/queue, the top element becomes the last one,
+       and the second top element becomes the first one.
+* rotr -  Rotates the stack/queue, the last element becomes the top one.
+* queue - Sets the format of the data to a queue (FIFO).
+* stack - Sets the format of the data to a stack (LIFO)
 
 ## Usage
 ./monty.py file
@@ -29,27 +53,6 @@ pall
 pall
 
 ```
-## Opcodes list
-
-* push
-* pall
-* pint
-* pop
-* swap
-* add
-* nop
-* sub
-* div
-* mul
-* mod
-* pchar
-* pstr
-* rotl
-* rotr
-* queue
-* stack
-
-
 
 ---
 
