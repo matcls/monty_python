@@ -1,0 +1,9 @@
+push 9 
+push 7
+pall
+mul
+pall
+pop
+pall
+mul
+

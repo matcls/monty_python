@@ -1,0 +1,9 @@
+push 14
+push 4
+pall
+div
+pall
+push 4
+push 0
+div
+pint
